@@ -3,7 +3,7 @@ services:
     react-app:
         build: 
             context: .
-            dockerfile: dockerfile.dev
+            dockerfile: Dockerfile.dev
         ports: 
             - "3000:3000"
         volumes:
@@ -13,7 +13,7 @@ services:
     tests-app:
         build:
             context: .
-            dockerfile: dockerfile.dev
+            dockerfile: Dockerfile.dev
         volumes: 
             - /usr/src/app/node_modules
             - ./:/usr/src/app

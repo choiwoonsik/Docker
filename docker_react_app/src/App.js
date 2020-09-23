@@ -16,7 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React OK?
+          나는 운식이라고해
         </a>
       </header>
     </div>
